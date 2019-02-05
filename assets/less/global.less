@@ -1,0 +1,25 @@
+
+
+@-ms-viewport {
+    width: device-width;
+
+}
+
+//page with > 320px.
+
+@includes breakpoint('<=xsmall') {
+    html, body{
+        min-width: 320px;
+        
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body  {
+    background: @pallet(bg);
+}
